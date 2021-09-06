@@ -7,8 +7,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        
-        
         stage('Build'){
             steps {
                 sh "sh shell.sh"
